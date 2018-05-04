@@ -9,7 +9,7 @@ Siga as instruções abaixo para ter o ambiente pronto para rodar os testes func
 Ter o ambiente SIB mctic configurado e rodando em modo desenvolvimento local:
 
 
-Front: http://localhost:8092/sib/private
+Front: http://localhost:8092/sib/private \n
 Back:  http://localhost:8080/sib-backend/
 
 ### Instalando
@@ -22,5 +22,7 @@ Compilar a aplicação: mvn clean install
 
 executar os testes:
 
-Cadastro Intituição: TODO
+#### Cadastro Intituição: 
+mvn exec:java -Dexec.mainClass="br.gov.mctic.sib.test.CadastroInstituicao"
+
 
