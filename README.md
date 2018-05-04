@@ -9,7 +9,7 @@ Siga as instruções abaixo para ter o ambiente pronto para rodar os testes func
 Ter o ambiente SIB mctic configurado e rodando em modo desenvolvimento local:
 
 
-Front: http://localhost:8092/sib/private \n
+Front: http://localhost:8092/sib/private </br>
 Back:  http://localhost:8080/sib-backend/
 
 ### Instalando
