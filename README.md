@@ -23,12 +23,11 @@ Siga os passos: </br>
 https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
 
 ## Executando os testes
-
-executar os testes:
+Informe o nome da classe que será testada, conforme modelos abaixo:
 
 #### Cadastro Intituição: 
 ```
-mvn exec:java -Dexec.mainClass="br.gov.mctic.sib.test.CadastroInstituicao" </br>
+mvn exec:java -Dexec.mainClass="br.gov.mctic.sib.test.CadastroInstituicao"
 ```
 Mudando o webdriver para o chrome: </br>
 ```
