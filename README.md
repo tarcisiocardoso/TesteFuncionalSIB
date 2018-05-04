@@ -27,9 +27,11 @@ https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
 executar os testes:
 
 #### Cadastro Intituição: 
+```
 mvn exec:java -Dexec.mainClass="br.gov.mctic.sib.test.CadastroInstituicao" </br>
-
+```
 Mudando o webdriver para o chrome: </br>
+```
 mvn exec:java -Dexec.mainClass="br.gov.mctic.sib.test.CadastroInstituicao" -Dwebdriver.chrome.driver=/path/to/chromedriver
-
+```
 
